@@ -19,7 +19,7 @@ class Plecostomus (): FishAction by PrintingFishAction("eat algae"), FishColor b
 //    }
 }
 
-interface FishAction  {
+interface FishAction {
     fun eat()//インターフェース
 }
 interface FishColor {

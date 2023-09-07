@@ -1,6 +1,6 @@
 package com.example.demo.stpack.stdate
 
-data class Decoration(val rocks: String){//データクラスはGUIから作る。
+data class Decoration(val rocks: String) {//データクラスはGUIから作る。
 }
 fun makeDecorations() {
     val decoration1 = Decoration("granite")
